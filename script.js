@@ -1,8 +1,7 @@
-// Configuration
-const SIGNPOST_API_URL = "https://signpost-ia-app.azurewebsites.net/agent";
-// ⚠️ INSERISCI QUI LE TUE CHIAVI ⚠️
-const TEAM_ID = "43892cde-286a-4f23-8049-e4a0168cc11c";
-const AGENT_ID = 368;
+// Configuration - loaded from config.js
+const SIGNPOST_API_URL = CONFIG.SIGNPOST_API_URL;
+const TEAM_ID = CONFIG.TEAM_ID;
+const AGENT_ID = CONFIG.AGENT_ID;
 
 // State Management
 let chats = JSON.parse(localStorage.getItem('giannis_chats')) || [];
