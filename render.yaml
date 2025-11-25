@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: giannis-chatbot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: SIGNPOST_API_URL
+        value: https://signpost-ia-app.azurewebsites.net/agent
+      - key: TEAM_ID
+        sync: false
+      - key: AGENT_ID
+        sync: false
