@@ -1,0 +1,21 @@
+# Configuration files with sensitive data
+config.js
+
+# Backup files
+*.backup
+*.bak
+
+# OS files
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+fix_css.txt
